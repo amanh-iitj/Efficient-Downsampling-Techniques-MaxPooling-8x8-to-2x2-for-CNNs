@@ -24,8 +24,78 @@ the performance and efficiency of CNNs by reducing computational complexity whil
 
 ## Design code
 
+- Main code
+
 ```
-hjbds
-jhbjhcbjsb
-hbjcjsdv
+always @ (posedge clk) begin
+if(enable) begin
+if($signed(initialMax) < $signed(input1)) begin
+if($signed(input2) < $signed(input1)) begin
+if($signed(input3) < $signed(input1)) begin
+if($signed(input4) < $signed(input1)) begin
+output1 <= input1;
+maxPoolingDone <= 1;
+end
+else begin
+output1 <= input4;
+maxPoolingDone <= 1;
+end
+end
+else begin
+if($signed(input3) < $signed(input4)) begin
+output1 <= input4;
+maxPoolingDone <= 1;
+end
+else begin
+output1 <= input3;
+maxPoolingDone <= 1;
+end
+end
+end
+else begin
+if($signed(input3) < $signed(input2)) begin
+if($signed(input4) < $signed(input2)) begin
+output1 <= input2;
+maxPoolingDone <= 1;
+end
+else begin
+output1 <= input4;
+maxPoolingDone <= 1;
+end
+end
+else begin
+if($signed(input3) < $signed(input4)) begin
+output1 <= input4;
+maxPoolingDone <= 1;
+end
+else begin
+output1 <= input3;
+maxPoolingDone <= 1;
+end
+end
+end
+end
+else begin
+output1 <= initialMax;
+maxPoolingDone <= 1;
+end
+end
+else begin
+output1 <= 0;
+maxPoolingDone <= 0;
+end
+end
 ```
+
+
+## Result waveform
+
+- ![maxpool_op](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/d9fef262-9771-4a44-8dd1-e84a835e90fc)
+
+
+
+## Tool used
+
+- Xilinx Vivado
+
+
