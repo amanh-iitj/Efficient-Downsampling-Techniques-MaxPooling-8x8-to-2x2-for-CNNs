@@ -1,0 +1,1 @@
+# Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs
