@@ -14,9 +14,9 @@
 
 - Input here is a 8x 8 matrix that can be thought of as a collection of four 4 x 4 submatrices or sixteen 2x2 submatrices . When you apply the first 2 x 2 max-pooling, you basically obtain a 4x4 matrix which when again filtered with 2x2 max-pooling yields a 2x2 matrix as the final output.
 
-- ![image](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/e3f069ec-596f-40b2-9456-4a9f86352e13)
+![image](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/e3f069ec-596f-40b2-9456-4a9f86352e13)
 
-- ![image](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/53644ce3-a4b8-4052-8203-7b6e25d30331)
+![image](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/53644ce3-a4b8-4052-8203-7b6e25d30331)
 
 
 
@@ -89,7 +89,7 @@ end
 
 ## Result waveform:
 
-- ![maxpool_op](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/d9fef262-9771-4a44-8dd1-e84a835e90fc)
+![maxpool_op](https://github.com/amanh-iitj/Efficient-Downsampling-Techniques-MaxPooling-8x8-to-2x2-for-CNNs/assets/155350256/d9fef262-9771-4a44-8dd1-e84a835e90fc)
 
 
 
@@ -100,7 +100,7 @@ end
 
 
 
-## References
+## References:
 
 - Sun, Luna, et al. "AMPNet: Average-and max-pool networks for salient object detection." IEEE Transactions on Circuits and Systems for Video Technology 31.11 (2021): 4321-4333.
 
